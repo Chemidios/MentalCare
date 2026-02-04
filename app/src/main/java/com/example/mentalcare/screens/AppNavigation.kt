@@ -242,6 +242,7 @@ fun AppNavigation() {
                     BackHandler(enabled = drawerState.isOpen) {
                         scope.launch { drawerState.close() }
                     }
+                    // Creación de la barra lateral. Aquí se encontrarán los botones de navegación
                     ModalNavigationDrawer(
                         drawerState = drawerState,
                         drawerContent = {
@@ -309,6 +310,7 @@ fun AppNavigation() {
                                         unselectedContainerColor = Color.Transparent
                                     )
                                 )
+                                // Si el usuario es administrador le aparece el panel de adminsitración.
                                 if (currentUser?.isAdmin == true) {
                                     HorizontalDivider(
                                         modifier = Modifier.padding(vertical = 8.dp),
