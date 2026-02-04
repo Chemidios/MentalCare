@@ -20,7 +20,7 @@ interface DailyRecordDao {
     fun getAllRecords(): kotlinx.coroutines.flow.Flow<List<DayRecord>>
 }
 
-// Clase principal de la persistencia de datos (RA5.a).
+// Clase principal de la persistencia de datos
 // @Database: Define las entidades de la BD y la versión del esquema.
 // @TypeConverters: Permite a Room manejar tipos de datos complejos como Listas (RA5.a).
 @Database(entities = [UserEntity::class, DayRecord::class, GoalEntity::class], version = 2)
