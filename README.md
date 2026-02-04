@@ -22,4 +22,4 @@ Proyecto Final de Desarrollo de Interfaces.
 Implementación de Protected Routes mediante un interceptor de navegación que bloquea el acceso a los datos sensibles hasta que el usuario se autentica por PIN o Biometría.
 
 ## 📄 Documentación
-Puedes consultar el manual técnico y de usuario completo aquí: [Descargar PDF]([/Documentacion_MentalCare.pdf](https://github.com/Chemidios/MentalCare/releases/download/V.1.0/Documentacion.MentalCare.pdf))    
+Puedes consultar el manual técnico y de usuario completo aquí: [Descargar PDF](https://github.com/Chemidios/MentalCare/blob/main/Documentaci%C3%B3n%20MentalCare.pdf)    
