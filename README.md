@@ -20,3 +20,6 @@ Proyecto Final de Desarrollo de Interfaces.
 
 ## Seguridad Avanzada: 
 Implementación de Protected Routes mediante un interceptor de navegación que bloquea el acceso a los datos sensibles hasta que el usuario se autentica por PIN o Biometría.
+
+## 📄 Documentación
+Puedes consultar el manual técnico y de usuario completo aquí: [Descargar PDF](./Documentacion_MentalCare.pdf)    
